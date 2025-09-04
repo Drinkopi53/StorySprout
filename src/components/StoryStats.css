@@ -1,0 +1,29 @@
+.story-stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h3 {
+  color: #28a745;
+  margin: 0 0 10px 0;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #28a745;
+  margin: 0;
+}
+
+.stat-label {
+  color: #666;
+  margin: 5px 0 0 0;
+}

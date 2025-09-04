@@ -1,0 +1,87 @@
+.library {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  color: #28a745;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.story-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.story-card:hover {
+  transform: translateY(-10px);
+}
+
+.story-image-placeholder {
+  background-color: #e8f5e9;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.story-info {
+  padding: 20px;
+}
+
+.story-info h3 {
+  color: #28a745;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.story-date,
+.story-theme {
+  color: #666;
+  margin: 5px 0;
+}
+
+.story-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.story-actions button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.read-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.share-button {
+  background-color: #17a2b8;
+  color: white;
+}
